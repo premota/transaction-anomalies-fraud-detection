@@ -1,0 +1,13 @@
+xgboost==3.0.2
+matplotlib==3.10.3
+seaborn==0.13.2
+scikit-learn==1.3.0
+numpy==1.26.4
+pandas==2.2.1
+joblib==1.2.0
+
+# kernel
+ipykernel==6.30.0
+
+# UserInterface
+streamlit==1.47.1
