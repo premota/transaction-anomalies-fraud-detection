@@ -23,6 +23,7 @@ That said, I studied the raw logs carefully and built reliable regex patterns to
 - location
 - device
 - atm
+
 These form the core of the structured data used downstream for feature engineering and modeling.
 
 # Feature Engineering:
@@ -110,7 +111,7 @@ We can group flagged transactions into the following categories:
 - ensemble method for fraud detected: The ouptut from machine learning would be more reliable when multiple algorithms flag a transaction to be fraudulent.
 - Write modular codes to production standard (with logger, exceptions, api's etc)
 - Design a more interactive UI to interact with output from model
-
+- Develop a more Rubost rule based system for different possible business needs and fraud cases
 
 
 
