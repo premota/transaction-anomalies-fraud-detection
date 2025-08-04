@@ -8,7 +8,7 @@
 5. app.py contains the code for a simplistic streamlit User Interface
 
 
-# Data Parset/Extraction:
+# Data Parser/Extraction:
 The transaction logs were parsed using regular expressions. This method was chosen for its speed and simplicity, especially under time constraints.
 
 However, regular expressions can be fragile if the text format changes, the extraction might fail. A more robust approach (which wasn’t used due to time limitations) would be to fine-tune a lightweight encoder only language model like DistilBERT, which is available on Hugging Face. Such models can generalize better and extract relevant features even when patterns shift slightly.
